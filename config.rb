@@ -8,6 +8,8 @@ activate :bower
 #   config.output_style = :compact
 # end
 
+Slim::Engine.set_default_options pretty: true
+
 ###
 # Page options, layouts, aliases and proxies
 ###
