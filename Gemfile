@@ -8,3 +8,4 @@ gem 'middleman-favicon-maker'
 gem 'compass'
 gem 'slim'
 gem 'ffaker'
+gem 'turbolinks', require: false
