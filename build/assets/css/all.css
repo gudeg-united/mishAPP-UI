@@ -8043,18 +8043,26 @@ h1 {
   padding: 0.625rem 0.9375rem;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  white-space: nowrap; }
 
-/* line 86, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+/* line 87, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
 .home-footer {
   text-align: center;
   margin: 6.25rem 0 3.125rem; }
-  /* line 90, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 91, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   .home-footer ul {
     list-style: none;
     margin: 0;
     padding: 0; }
-    /* line 95, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+    /* line 96, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
     .home-footer ul li {
       display: inline-block;
       margin: 0 0.625rem; }
+
+/* line 100, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+.additional-info {
+  padding: 3.125rem 0; }
+  /* line 103, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  .additional-info h3 {
+    margin-bottom: 3.125rem; }

@@ -14,6 +14,8 @@ html
   body
     #mapbg
     #wrapper
-      = yield
+      .row
+        .columns
+          = yield
 
     = javascript_include_tag 'all', 'gmap3', 'site'
