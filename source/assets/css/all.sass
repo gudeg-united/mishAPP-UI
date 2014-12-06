@@ -1,0 +1,97 @@
+@import compass
+@import foundation/scss/normalize
+@import settings
+@import foundation/scss/foundation
+@import pace/themes/blue/pace-theme-minimal
+@import url(http://fonts.googleapis.com/css?family=Lato:300)
+
+#mapbg
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 0
+  width: 100%
+  height: 100%
+
+#wrapper
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 1
+  overflow-y: auto
+  background: rgba(black, .85)
+  width: 100%
+  height: 100%
+
+#logo
+  padding: rem-calc(50 0)
+  text-align: center
+
+.submit-btns
+  list-style: none
+  padding: rem-calc(50 0)
+  margin: 0
+  text-align: center
+
+  li
+    display: inline-block
+    margin: rem-calc(10)
+
+    a
+      display: block
+      width: 96px
+      height: 96px
+      +border-radius(50%)
+      background-color: #FF7518
+      // text-indent: -9999px
+      overflow: hidden
+      // +box-shadow(0px 3px 0px 0px rgb(34,34,34), 0px 7px 10px 0px rgb(17,17,17), inset 0px 1px 1px 0px rgba(250, 250, 250, .2), inset 0px -12px 35px 0px rgba(0, 0, 0, .5))
+      position: relative
+
+      // &:before
+      //   content: ""
+      //   width: 106px
+      //   height: 106px
+      //   display: block
+      //   z-index: -2
+      //   position: absolute
+      //   background-color: rgb(26,27,29)
+      //   left: -5px
+      //   top: -2px
+      //   +border-radius(50%)
+      //   +box-shadow(0px 1px 0px 0px rgba(250,250,250,0.1), inset 0px 1px 2px rgba(0, 0, 0, 0.5))
+
+      &.disabled
+        cursor: default
+        +opacity(.5)
+        background-color: black
+
+h1
+  font-size: 36px
+
+.ui-helper-hidden-accessible
+  display: none
+
+.ui-tooltip
+  position: absolute
+  background: rgba($primary-color, .75)
+  z-index: 2
+  padding: rem-calc(10 15)
+  +border-radius(5px)
+
+.home-footer
+  text-align: center
+  margin: rem-calc(100 0 50)
+
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+
+    li
+      display: inline-block
+      margin: rem-calc(0 10)
