@@ -1,0 +1,23 @@
+{
+  "name": "mishapp",
+  "version": "0.0.1",
+  "authors": [
+    "arman adhitama"
+  ],
+  "license": "MIT",
+  "homepage": "http://mishapp.blackbiron.koding.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.7",
+    "jquery-ui": "~1.11.2",
+    "modernizr": "~2.8.3",
+    "pace": "~1.0.2"
+  }
+}
