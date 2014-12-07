@@ -105,7 +105,7 @@
     var map, mapOptions, marker, myLatlng;
     myLatlng = new google.maps.LatLng(-6.204808, 107.014730);
     mapOptions = {
-      zoom: 16,
+      zoom: 15,
       center: myLatlng,
       styles: [
         {

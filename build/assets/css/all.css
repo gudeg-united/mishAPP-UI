@@ -8100,69 +8100,36 @@ h1 {
     -o-transition: all 0.2s;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    background: #00946a;
-    -moz-animation: r 2s 0.25s ease-out infinite;
-    -webkit-animation: r 2s 0.25s ease-out infinite;
-    animation: r 2s 0.25s ease-out infinite; }
-@-moz-keyframes r {
-  0% {
-    -moz-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 0px rgba(51, 51, 51, 0), 0 0 0px 0px rgba(0, 122, 88, 0);
-    box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 0px rgba(51, 51, 51, 0), 0 0 0px 0px rgba(0, 122, 88, 0); }
-  10% {
-    -moz-box-shadow: 0 0 8px 6px #007a58, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #007a58;
-    box-shadow: 0 0 8px 6px #007a58, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #007a58; }
-  100% {
-    -moz-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 40px rgba(51, 51, 51, 0), 0 0 0px 40px rgba(0, 122, 88, 0);
-    box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 40px rgba(51, 51, 51, 0), 0 0 0px 40px rgba(0, 122, 88, 0); } }
-@-webkit-keyframes r {
-  0% {
-    -webkit-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 0px rgba(51, 51, 51, 0), 0 0 0px 0px rgba(0, 122, 88, 0);
-    box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 0px rgba(51, 51, 51, 0), 0 0 0px 0px rgba(0, 122, 88, 0); }
-  10% {
-    -webkit-box-shadow: 0 0 8px 6px #007a58, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #007a58;
-    box-shadow: 0 0 8px 6px #007a58, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #007a58; }
-  100% {
-    -webkit-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 40px rgba(51, 51, 51, 0), 0 0 0px 40px rgba(0, 122, 88, 0);
-    box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 40px rgba(51, 51, 51, 0), 0 0 0px 40px rgba(0, 122, 88, 0); } }
-@keyframes r {
-  0% {
-    -moz-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 0px rgba(51, 51, 51, 0), 0 0 0px 0px rgba(0, 122, 88, 0);
-    -webkit-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 0px rgba(51, 51, 51, 0), 0 0 0px 0px rgba(0, 122, 88, 0);
-    box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 0px rgba(51, 51, 51, 0), 0 0 0px 0px rgba(0, 122, 88, 0); }
-  10% {
-    -moz-box-shadow: 0 0 8px 6px #007a58, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #007a58;
-    -webkit-box-shadow: 0 0 8px 6px #007a58, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #007a58;
-    box-shadow: 0 0 8px 6px #007a58, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #007a58; }
-  100% {
-    -moz-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 40px rgba(51, 51, 51, 0), 0 0 0px 40px rgba(0, 122, 88, 0);
-    -webkit-box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 40px rgba(51, 51, 51, 0), 0 0 0px 40px rgba(0, 122, 88, 0);
-    box-shadow: 0 0 8px 6px rgba(0, 122, 88, 0), 0 0 0px 40px rgba(51, 51, 51, 0), 0 0 0px 40px rgba(0, 122, 88, 0); } }
+    background: #ff301a;
+    -moz-animation: r2 0.5s 0.4s ease-out infinite;
+    -webkit-animation: r2 0.5s 0.4s ease-out infinite;
+    animation: r2 0.5s 0.4s ease-out infinite; }
 @-moz-keyframes r2 {
   from {
     -moz-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
     box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a; }
   to {
-    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 40px rgba(51, 51, 51, 0), 0 0 4px 41px rgba(255, 48, 26, 0);
-    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 40px rgba(51, 51, 51, 0), 0 0 4px 41px rgba(255, 48, 26, 0); } }
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
 @-webkit-keyframes r2 {
   from {
     -webkit-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
     box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a; }
   to {
-    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 40px rgba(51, 51, 51, 0), 0 0 4px 41px rgba(255, 48, 26, 0);
-    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 40px rgba(51, 51, 51, 0), 0 0 4px 41px rgba(255, 48, 26, 0); } }
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
 @keyframes r2 {
   from {
     -moz-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
     -webkit-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
     box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a; }
   to {
-    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 40px rgba(51, 51, 51, 0), 0 0 4px 41px rgba(255, 48, 26, 0);
-    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 40px rgba(51, 51, 51, 0), 0 0 4px 41px rgba(255, 48, 26, 0);
-    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 40px rgba(51, 51, 51, 0), 0 0 4px 41px rgba(255, 48, 26, 0); } }
-    /* line 149, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
-    #map .map-pin:hover {
-      background: #ff301a;
-      -moz-animation: r2 0.5s 0.4s ease-out infinite;
-      -webkit-animation: r2 0.5s 0.4s ease-out infinite;
-      animation: r2 0.5s 0.4s ease-out infinite; }
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
+/* line 155, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+.disaster-detail {
+  margin: 3.125rem 0; }
+  /* line 158, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  .disaster-detail h2 {
+    font-size: 24px; }
