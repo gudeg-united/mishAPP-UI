@@ -1,6 +1,8 @@
-form.additional-info
-  h3.text-center Your Location is Jakarta, Indonesia
-  h5.text-center Aditional information about this disaster
-  textarea.radius rows="10"
-  input.button.radius.small.expand type="submit"
-  = link_to 'skip', '', class: 'button radius alert small expand'
+.row
+  .columns
+    form.additional-info action="detail.html"
+      h3.text-center Your Location is Jakarta, Indonesia
+      h5.text-center Aditional information about the disaster
+      textarea.radius rows="10"
+      input.button.radius.small.expand type="submit"
+      = link_to 'skip', 'detail.html', class: 'button radius alert small expand'
