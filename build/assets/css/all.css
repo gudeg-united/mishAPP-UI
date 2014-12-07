@@ -8088,7 +8088,8 @@ footer {
     margin-bottom: 3.125rem; }
 
 /* line 107, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
-#map {
+#map,
+#map-global {
   height: 500px;
   max-height: 90%;
   width: 100%;
@@ -8097,8 +8098,9 @@ footer {
   right: 0;
   left: 0;
   background: black; }
-  /* line 117, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
-  #map .map-pin {
+  /* line 118, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin,
+  #map-global .map-pin {
     width: 20px;
     height: 20px;
     -moz-border-radius: 50%;
@@ -8136,13 +8138,13 @@ footer {
     -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
     -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
     box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
-/* line 160, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+/* line 161, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
 .disaster-detail {
   margin: 3.125rem 0 0; }
-  /* line 163, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 164, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   .disaster-detail h2 {
     font-size: 24px;
     margin-bottom: 1.5625rem; }
-  /* line 167, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 168, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   .disaster-detail h3 {
     font-size: 18px; }
