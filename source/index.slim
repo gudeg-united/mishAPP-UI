@@ -3,5 +3,5 @@
     #logo= image_tag 'logo.png'
     h1.text-center Report a disaster
     ul.submit-btns
-      - {'Earthquake' => true, 'Flood' => false, 'Hurricane' => false, 'Nuclear' => false, 'Tornado' => false, 'Tsunami' => false, 'Volcano' => false, 'Wildfire' => false}.each do |event, stat|
-        li= link_to image_tag("icon-#{'earthquake'.downcase}.png"), 'report.html', title: "#{event} #{stat == true ? '' : '(coming soon)'}", class: stat == true ? 'enabled' : 'disabled'
+      - {'Earthquake' => true, 'Flood' => false, 'Storm' => false, 'Tsunami' => false, 'Volcano' => false, 'Wildfire' => false}.each do |event, stat|
+        li= link_to image_tag("icon-#{event.downcase}.png"), 'report.html', title: "#{event} #{stat == true ? '' : '(coming soon)'}", class: stat == true ? 'enabled' : 'disabled'
