@@ -116,51 +116,33 @@ footer
   background: black
 
   $w: 20px //dot size
-  $e: 4 //dot margin factor
-  $hsl: 163 //start color
   $bg: rgba(black, 0)
-  $c: hsl($hsl, 100%, 24%)
-  $c2: hsl(6, 100%, 55%)
+  $c: red
 
-  =shadow($b, $s, $sm, $c)
-    +box-shadow(0 0 8px 6px $c, 0 0 $b $s $bg, 0 0 $b ($s + $sm) $c)
+  =shadow($b, $s, $sm, $ccc)
+    +box-shadow(0 0 8px 6px $ccc, 0 0 $b $s $bg, 0 0 $b ($s + $sm) $ccc)
+
+  *:not(.map-pin)
+    +box-shadow(none !important)
 
   .map-pin
-
-    // +keyframes(r)
-    //   0%
-    //     +shadow(0px, 0px, 0px, rgba($c, 0))
-
-    //   10%
-    //     +shadow(12px, 10px, 4px, $c)
-
-    //   100%
-    //     +shadow(0px, 40px, 0px, rgba($c, 0))
-
     width: $w
     height: $w
     +border-radius(50%)
     cursor: pointer
     +transition(all .2s)
-    background: $c2
+    background: $c
 
   @for $i from 0 to 10
-    +keyframes(r2+$i)
+    +keyframes(r+$i)
       from
-        +shadow(12px, 10px, 4px, $c2)
+        +shadow(12px, 10px, 4px, $c)
 
       to
-        +shadow(4px, 200px, 1px, rgba($c2, 0))
+        +shadow(4px, 200px, 1px, rgba($c, 0))
 
     .map-pin#pin-#{$i}
-      +animation(r2+$i 2s ($i/4)+s ease-out infinite)
-
-    // background: lighten($c, 5%)
-    // +animation(r 2s .25s ease-out infinite)
-
-    // &:hover
-    //   background: $c2
-    //   +animation(r2 .5s .4s ease-out infinite)
+      +animation(r+$i 2s ($i)+s ease-out infinite)
 
 .disaster-detail
   margin: rem-calc(50 0 0)
