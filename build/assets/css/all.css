@@ -8058,27 +8058,30 @@ h1 {
   white-space: nowrap; }
 
 /* line 83, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
-.home-footer {
+.home-footer,
+footer {
   text-align: center;
   margin: 6.25rem 0 3.125rem; }
-  /* line 87, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
-  .home-footer ul {
+  /* line 88, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  .home-footer ul,
+  footer ul {
     list-style: none;
     margin: 0;
     padding: 0; }
-    /* line 92, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
-    .home-footer ul li {
+    /* line 93, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+    .home-footer ul li,
+    footer ul li {
       display: inline-block;
       margin: 0 0.625rem; }
 
-/* line 96, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+/* line 97, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
 .additional-info {
   padding: 3.125rem 0; }
-  /* line 99, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 100, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   .additional-info h3 {
     margin-bottom: 3.125rem; }
 
-/* line 102, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+/* line 103, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
 #map {
   height: 500px;
   max-height: 90%;
@@ -8088,7 +8091,7 @@ h1 {
   right: 0;
   left: 0;
   background: black; }
-  /* line 112, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 113, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   #map .map-pin {
     width: 20px;
     height: 20px;
@@ -8127,9 +8130,13 @@ h1 {
     -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
     -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
     box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
-/* line 155, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+/* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
 .disaster-detail {
-  margin: 3.125rem 0; }
-  /* line 158, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  margin: 3.125rem 0 0; }
+  /* line 159, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   .disaster-detail h2 {
-    font-size: 24px; }
+    font-size: 24px;
+    margin-bottom: 1.5625rem; }
+  /* line 163, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  .disaster-detail h3 {
+    font-size: 18px; }
