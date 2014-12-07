@@ -5,8 +5,3 @@
     ul.submit-btns
       - {'Earthquake' => true, 'Flood' => false, 'Hurricane' => false, 'Nuclear' => false, 'Tornado' => false, 'Tsunami' => false, 'Volcano' => false, 'Wildfire' => false}.each do |event, stat|
         li= link_to image_tag("icon-#{'earthquake'.downcase}.png"), 'report.html', title: "#{event} #{stat == true ? '' : '(coming soon)'}", class: stat == true ? 'enabled' : 'disabled'
-
-    .home-footer
-      ul
-        - ['Latest disasters at my location', 'Survival tips', 'Missing people', 'Food supplies'].each do |menu|
-          li= link_to menu
