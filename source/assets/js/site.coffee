@@ -176,7 +176,7 @@ initMap = ->
     map: map
     # icon: marker.png #Option for setting the marker source
     # title: "Hello World!"
-    content: '<div class="map-pin"></div>'
+    content: '<div class="map-pin" id="pin-1"></div>'
   )
 
 google.maps.event.addDomListener(window, 'load', initMap)

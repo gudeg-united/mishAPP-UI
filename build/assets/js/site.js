@@ -202,7 +202,7 @@
     return marker = new RichMarker({
       position: myLatlng,
       map: map,
-      content: '<div class="map-pin"></div>'
+      content: '<div class="map-pin" id="pin-1"></div>'
     });
   };
 

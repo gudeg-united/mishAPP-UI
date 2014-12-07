@@ -8098,7 +8098,7 @@ footer {
   right: 0;
   left: 0;
   background: black; }
-  /* line 118, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 129, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   #map .map-pin,
   #map-global .map-pin {
     width: 20px;
@@ -8111,40 +8111,305 @@ footer {
     -o-transition: all 0.2s;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    background: #ff301a;
-    -moz-animation: r2 0.5s 0.4s ease-out infinite;
-    -webkit-animation: r2 0.5s 0.4s ease-out infinite;
-    animation: r2 0.5s 0.4s ease-out infinite; }
-@-moz-keyframes r2 {
+    background: #ff301a; }
+@-moz-keyframes r21 {
   from {
-    -moz-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
-    box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a; }
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
   to {
-    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
-    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
-@-webkit-keyframes r2 {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r21 {
   from {
-    -webkit-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
-    box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a; }
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
   to {
-    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
-    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
-@keyframes r2 {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r21 {
   from {
-    -moz-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
-    -webkit-box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a;
-    box-shadow: 0 0 8px 6px #ff301a, 0 0 12px 10px rgba(51, 51, 51, 0), 0 0 12px 14px #ff301a; }
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
   to {
-    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
-    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0);
-    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px rgba(51, 51, 51, 0), 0 0 4px 201px rgba(255, 48, 26, 0); } }
-/* line 161, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-1,
+  #map-global .map-pin#pin-1 {
+    -moz-animation: r21 2s 0.25s ease-out infinite;
+    -webkit-animation: r21 2s 0.25s ease-out infinite;
+    animation: r21 2s 0.25s ease-out infinite; }
+@-moz-keyframes r22 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r22 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r22 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-2,
+  #map-global .map-pin#pin-2 {
+    -moz-animation: r22 2s 0.5s ease-out infinite;
+    -webkit-animation: r22 2s 0.5s ease-out infinite;
+    animation: r22 2s 0.5s ease-out infinite; }
+@-moz-keyframes r23 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r23 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r23 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-3,
+  #map-global .map-pin#pin-3 {
+    -moz-animation: r23 2s 0.75s ease-out infinite;
+    -webkit-animation: r23 2s 0.75s ease-out infinite;
+    animation: r23 2s 0.75s ease-out infinite; }
+@-moz-keyframes r24 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r24 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r24 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-4,
+  #map-global .map-pin#pin-4 {
+    -moz-animation: r24 2s 1s ease-out infinite;
+    -webkit-animation: r24 2s 1s ease-out infinite;
+    animation: r24 2s 1s ease-out infinite; }
+@-moz-keyframes r25 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r25 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r25 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-5,
+  #map-global .map-pin#pin-5 {
+    -moz-animation: r25 2s 1.25s ease-out infinite;
+    -webkit-animation: r25 2s 1.25s ease-out infinite;
+    animation: r25 2s 1.25s ease-out infinite; }
+@-moz-keyframes r26 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r26 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r26 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-6,
+  #map-global .map-pin#pin-6 {
+    -moz-animation: r26 2s 1.5s ease-out infinite;
+    -webkit-animation: r26 2s 1.5s ease-out infinite;
+    animation: r26 2s 1.5s ease-out infinite; }
+@-moz-keyframes r27 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r27 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r27 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-7,
+  #map-global .map-pin#pin-7 {
+    -moz-animation: r27 2s 1.75s ease-out infinite;
+    -webkit-animation: r27 2s 1.75s ease-out infinite;
+    animation: r27 2s 1.75s ease-out infinite; }
+@-moz-keyframes r28 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r28 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r28 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-8,
+  #map-global .map-pin#pin-8 {
+    -moz-animation: r28 2s 2s ease-out infinite;
+    -webkit-animation: r28 2s 2s ease-out infinite;
+    animation: r28 2s 2s ease-out infinite; }
+@-moz-keyframes r29 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r29 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r29 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-9,
+  #map-global .map-pin#pin-9 {
+    -moz-animation: r29 2s 2.25s ease-out infinite;
+    -webkit-animation: r29 2s 2.25s ease-out infinite;
+    animation: r29 2s 2.25s ease-out infinite; }
+@-moz-keyframes r210 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@-webkit-keyframes r210 {
+  from {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+@keyframes r210 {
+  from {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a;
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 12px 10px transparent, 0 0 12px 14px #ff301a; }
+  to {
+    -moz-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    -webkit-box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0);
+    box-shadow: 0 0 8px 6px rgba(255, 48, 26, 0), 0 0 4px 200px transparent, 0 0 4px 201px rgba(255, 48, 26, 0); } }
+  /* line 156, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  #map .map-pin#pin-10,
+  #map-global .map-pin#pin-10 {
+    -moz-animation: r210 2s 2.5s ease-out infinite;
+    -webkit-animation: r210 2s 2.5s ease-out infinite;
+    animation: r210 2s 2.5s ease-out infinite; }
+
+/* line 166, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
 .disaster-detail {
   margin: 3.125rem 0 0; }
-  /* line 164, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 169, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   .disaster-detail h2 {
     font-size: 24px;
     margin-bottom: 1.5625rem; }
-  /* line 168, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
+  /* line 173, /Volumes/Data/private/mishapp/source/assets/css/all.sass */
   .disaster-detail h3 {
     font-size: 18px; }
